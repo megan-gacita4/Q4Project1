@@ -13,32 +13,6 @@
             background-size: 1400px;
         }
 
-        .sidebar{
-            width: 220px;
-            height: 100vh;
-            background-color: white;
-            padding: 4px;
-        }
-
-        .sidebar h2{
-            margin-bottom: 25px;   
-        }
-
-        .sidebar a{
-            display: block;
-            color: cornflowerblue;
-            border: 1px solid cornsilk;
-            padding: 10px;
-            margin-bottom: 10px;
-            text-align: center;
-            border: 5px;
-        }
-
-        .sidebar a:hover{
-            background-color: rgb(213, 227, 252);
-            counter-reset: cornsilk;
-        }
-
         .cards{
     display: flex;
     flex-wrap: wrap;
@@ -54,14 +28,22 @@
     </style>
 </head>
 <body>
-    <div class="sidebar">
-        <h2>MENU</h2>
-        <a href="#">Dashboard</a>
-        <a href="#">Virtual Notebooks</a>
-        <a href="#">Tasks</a>
-        <a href="#">Profile</a>
-        <a href="#">Logout</a>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+
+  </button>
+   <div class="container">
+        <div class="row w-100 align-items-center text-center"><div class="col d-flex justify-content-end gap-4">
+                <a class="nav-link nav-text">Home</a>
+                <a class="nav-link nav-text">Virtual Notebook</a>
+            </div>
+            <div class="col-auto">
+                <a class="navbar-brand m-0" href=""><img src="obmc.png" width="120"></a>
+</div>
+<div class="col d-flex justify-content-start gap-4">
+<a class="nav-link nav-text">Files </a>
+   <a class="nav-link nav-text">Calendar</a>
+<a class="nav-link nav-text" href="index.html">Logout</a>
 
     <div class="main col-md-10 p-4">
 
